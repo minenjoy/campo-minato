@@ -1,0 +1,73 @@
+*{
+border: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: rgba(67, 247, 253, 0.452);
+width: 486px;
+border: solid black 3px;
+margin-left: 100px;
+}
+.titolo{
+    display: flex;
+}
+.title{
+    font-family: 'Anton', sans-serif;
+    margin-top: 15px;
+ justify-content: center;
+}
+
+.campo{
+    width: 480px;
+    height: 480px;
+    display: flex;
+    background-color: rgb(179, 250, 185);
+    flex-wrap: wrap;
+    position: relative;
+}
+.cell{
+    border: solid black 1px;
+    width: 48px;
+    height: 48px;
+}
+
+.scuro{
+    background-color: rgb(106, 160, 110);
+}
+
+.info-gioco{
+display: flex;
+justify-content: space-between;
+}
+
+.text{
+    font-size: xx-large;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.endsfondo{
+    background-color: rgba(231, 96, 96, 0.616);
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.endgame{
+    display: none;
+}
+
+.aaa{
+    background-image: url(img/bomba.png);
+    background-size: contain;
+}
+
+.nobomba{
+    background-color: rgb(48, 77, 50);
+}
